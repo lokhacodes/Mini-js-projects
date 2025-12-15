@@ -6,7 +6,8 @@ let hasBlackJack = false
 let isAlive = true
 let message = ""
 
-if ( sum<21 )
+function startGame(){
+   if ( sum<21 )
     {
        message="Do u want to draw new card ? 🙂"  
     } else if (sum === 21){
@@ -16,5 +17,8 @@ if ( sum<21 )
         message="U are out of the Game ! 😭"
         isAlive = false
     }
-
 console.log(message)
+}
+
+
+

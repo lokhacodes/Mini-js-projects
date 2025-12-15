@@ -18,3 +18,14 @@ h1 {
     font-style:italic;
     font-size: 20px;
 }
+
+button {
+    margin: 50px;
+    background-color: goldenrod;
+    color: #016f32;
+    font-weight: bold;
+    width      : 150px;
+    padding: 5px 5px;
+    border: none;
+    border-radius: 2px;
+}
