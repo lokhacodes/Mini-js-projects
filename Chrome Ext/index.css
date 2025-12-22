@@ -2,7 +2,7 @@ body {
     margin:  0;
     padding:10px;
     font-family: Arial, Helvetica, sans-serif;
-
+    min-width:400px;
 }
 
 
@@ -18,10 +18,22 @@ input  {
 
 button {
     margin: 4px;
+    margin-left: 1px;
     background-color: #5f9341;;
     color: #e7eeeaff;
     border: none;
      width      : 150px;
      height : 30px;
        font-weight: bold;
+}
+
+ul {
+    list-style: none;
+    padding: 0;
+    color: #5f9341;
+}
+
+a {
+    text-decoration: none;
+    color: inherit;
 }

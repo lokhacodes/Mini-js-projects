@@ -30,3 +30,17 @@ button {
     border-radius: 2px;
     
 }
+
+ul{
+  list-style: none;
+  padding: 0;
+}
+
+li{
+
+}
+
+a {
+ color: #016f32;
+ text-decoration: none;
+}
