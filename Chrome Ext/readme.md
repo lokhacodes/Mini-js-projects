@@ -26,12 +26,12 @@ Leadstracker is a simple Chrome extension that allows users to save and manage l
 ## Learned Concepts Applied
 This project incorporates the following JavaScript concepts:
 
-- **const**: Used for declaring constants like DOM element references (e.g., `const inputEl = document.getElementById("input-el")`)
-- **addEventListener()**: Attaches event listeners to buttons for user interactions (e.g., `inputBtn.addEventListener("click", function(){...})`)
-- **innerHTML**: Dynamically updates the DOM content (e.g., `ulEl.innerHTML = listItems`)
-- **input.value**: Retrieves user input from form elements (e.g., `myLeads.push(inputEl.value)`)
-- **Function Parameters**: Functions accept parameters for flexibility (e.g., `function render(leads)`)
-- **Template Strings**: Uses backticks for string interpolation (e.g., `listItems += \`<li><a target='_blank' href='${leads[i]}'>${leads[i]}</a></li>\``)
-- **localStorage**: Persists data across browser sessions (e.g., `localStorage.setItem("myLeads", JSON.stringify(myLeads))`)
-- **The JSON Object**: Converts objects to strings and vice versa for storage (e.g., `JSON.stringify(myLeads)`, `JSON.parse(localStorage.getItem("myLeads"))`)
-- **Objects in Arrays**: Stores leads as strings in an array (e.g., `let myLeads = []`)
+- **const**: Used for declaring constants like DOM element references 
+- **addEventListener()**: Attaches event listeners to buttons for user interactions 
+- **innerHTML**: Dynamically updates the DOM content 
+- **input.value**: Retrieves user input from form elements 
+- **Function Parameters**: Functions accept parameters for flexibility 
+- **Template Strings**: Uses backticks for string interpolation 
+- **localStorage**: Persists data across browser sessions 
+- **The JSON Object**: Converts objects to strings and vice versa for storage 
+- **Objects in Arrays**: Stores leads as strings in an array 
